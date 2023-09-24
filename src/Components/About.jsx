@@ -1,9 +1,10 @@
 import React from 'react';
+import imageAbout from '../assets/image1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faXTwitter, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 function About() {
     return (
-        <div className='sm:flex justify-evenly items-center h-[100vh]'>
+        <div className='sm:flex justify-evenly items-center '>
             <div className='grid grid-cols-1 gap-9 sm:grid-cols-3 sm:max-w-5xl'>
                 <div className=' font-semibold text-2xl sm:text-5xl'>
                     <h1 className=''>ABOUT<span className='text-yellow-400 ml-2'>ME</span></h1>
@@ -24,14 +25,16 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className=''>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-                    the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div className='relative text-center  z-10 h-full flex flex-col justify-end'>
+                    <img className='h-[30rem] w-[100rem] drop-shadow-[0_35px_35px_rgba(0,0,0,0.3)] self-end' src={imageAbout} alt="" />
+                    <div className='absolute inset-0 flex items-center justify-center'>
+                        <div className='p-2'>
+                            <button className='bg-yellow-400 hover:text-yellow-400 hover:bg-black font-semibold p-2 rounded-full mt-[6rem] ml-[2rem] md:ml-[2rem]'>Download CV</button>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
         </div>
     )

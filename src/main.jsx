@@ -4,6 +4,7 @@ import './index.css'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import About from './Components/About'
+import Knowledge from './Components/Knowledge'
 // import Sample from './Components/Sample'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,5 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Navbar />
       <Home />
       <About />
+      <Knowledge/>
   </React.StrictMode>,
 )

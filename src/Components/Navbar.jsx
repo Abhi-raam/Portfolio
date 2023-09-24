@@ -6,7 +6,7 @@ function Navbar() {
         setMobiletoggle(!mobileToggle)
     }
     return (
-        <div className='fixed top-0 left-0 right-0'>
+        <div className='fixed top-0 left-0 right-0 z-50'>
             <div className="navbar  bg-yellow-400">
                 <div className="flex-1">
                     <a className="btn btn-ghost normal-case text-xl">Abhiram</a>
