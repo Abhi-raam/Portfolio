@@ -8,8 +8,8 @@ import About from './Components/About'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Navbar/>
-    <Home/>
-    <About/>
+      <Navbar />
+      <Home />
+      <About />
   </React.StrictMode>,
 )
