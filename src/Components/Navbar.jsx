@@ -7,7 +7,7 @@ function Navbar() {
     }
     return (
         <div className='fixed top-0 left-0 right-0 z-50'>
-            <div className="navbar  bg-yellow-400">
+            <div className="navbar  bg-white-10/2 bg:blur bg-opacity-30 backdrop-blur">
                 <div className="flex-1">
                     <a className="btn btn-ghost normal-case text-xl">Abhiram</a>
                 </div>
@@ -40,7 +40,7 @@ function Navbar() {
             {/* mobile view */}
             {mobileToggle && (
                 <div className="relative">
-                <div className='grid backdrop-filter backdrop-blur-lg bg-opacity-30 bg-yellow-400 justify-end font-semibold absolute top-0 left-0 right-0'>
+                <div className='grid backdrop-filter backdrop-blur bg-opacity-30 bg-white-10/2 justify-end font-semibold absolute top-0 left-0 right-0'>
                     <ul className="mr-3 space-y-2" >
                         <li className='hover:text-white transition delay-75 duration-150 ease-in-out'>
                             <a href="#">Home</a>
