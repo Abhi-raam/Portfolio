@@ -27,10 +27,10 @@ function About() {
                     </div>
                 </div>
                 <div className=' text-center  z-10 h-full flex flex-col justify-end'>
-                    <img className='h-[20rem] w-[100rem] drop-shadow-[0_35px_35px_rgba(0,0,0,0.3)] self-end' src={imageAbout2} alt="" />
+                    <img className='h-[20rem] w-[100rem] drop-shadow-[35px_0_35px_rgba(0,0,0,0.3)] self-end' src={imageAbout2} alt="" />
                     <div className='flex items-center justify-center'>
                         <div className='p-2'>
-                            <button className='bg-yellow-400 hover:text-yellow-400 hover:bg-black font-semibold p-2 rounded-full w-80 md:w-52 lg:w-80'>Download CV</button>
+                            <button className='bg-yellow-400 hover:text-yellow-400 hover:bg-black font-semibold p-2 rounded-full w-52 md:w-44 lg:w-80'>Download CV</button>
                         </div>
                     </div>
                 </div>

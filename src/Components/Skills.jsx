@@ -5,7 +5,7 @@ import { SiExpress,SiVercel } from 'react-icons/si';
 
 function Skills() {
     return (
-        <div className='bg-black pt-5 items-center p-3'>
+        <div className='bg-black pt-5 items-center p-3 pb-10'>
             <div className="grid grid-cols-1 md:grid-cols-3 text-center " >
                 <div className=''>
                     <h1 className='font-semibold text-2xl text-white sm:text-5xl'>MY <span className='text-yellow-400'>SKILLS</span></h1>
@@ -57,7 +57,7 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    <div className=' '>
+                    <div className=''>
                         <div>
                             <h1 className='text-white text-start text-xl md:text-2xl lg:text-4xl font-semibold'>OTHER</h1>
                         </div>
