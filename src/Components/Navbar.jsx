@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-scroll';
 
 function Navbar() {
     const [mobileToggle, setMobiletoggle] = useState(false)
@@ -13,20 +14,22 @@ function Navbar() {
                 </div>
                 <div>
                     <ul className="lg:flex items-center space-x-6  font-semibold">
-                        <li className='lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
-                            <a href="">Home</a>
+                        <li className='lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                            <Link to="home" smooth={true} duration={500}>Home</Link>
                         </li>
-                        <li className="lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
-                            <a href="#">About Me</a>
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+
+                            <Link to="about" smooth={true} duration={500}>About Me</Link>
                         </li>
-                        <li className="lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
-                            <a href="#">Konwledge</a>
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+
+                            <Link to="knowledge" smooth={true} duration={500}>Knowledge</Link>
                         </li>
-                        <li className="lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
-                            <a href="#">Skills</a>
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                            <Link to="skills" smooth={true} duration={500}>Skills</Link>
                         </li>
-                        <li className="lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
-                            <a href="#">Contact</a>
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                            <Link to="contact" smooth={true} duration={500}>Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -36,30 +39,30 @@ function Navbar() {
                     </button>
                 </div>
             </div>
-            
+
             {/* mobile view */}
             {mobileToggle && (
                 <div className="relative">
-                <div className='grid backdrop-filter backdrop-blur bg-opacity-30 bg-white-10/2 justify-end font-semibold absolute top-0 left-0 right-0'>
-                    <ul className="mr-3 space-y-2" >
-                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
-                            <a href="#">Home</a>
-                        </li>
-                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
-                            <a href="#">About Me</a>
-                        </li>
-                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
-                            <a href="#">Konwledge</a>
-                        </li>
-                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
-                            <a href="#">Skills</a>
-                        </li>
-                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
+                    <div className='grid backdrop-filter backdrop-blur bg-opacity-30 bg-white-10/2 justify-end font-semibold absolute top-0 left-0 right-0'>
+                        <ul className="mr-3 space-y-2" >
+                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                                <Link to="home" smooth={true} duration={500}>Home</Link>
+                            </li>
+                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                                <Link to="about" smooth={true} duration={500}>About Me</Link>
+                            </li>
+                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                                <Link to="knowledge" smooth={true} duration={500}>Knowledge</Link>
+                            </li>
+                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                                <Link to="skills" smooth={true} duration={500}>Skills</Link>
+                            </li>
+                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                                <Link to="contact" smooth={true} duration={500}>Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
             )}
         </div>
     )

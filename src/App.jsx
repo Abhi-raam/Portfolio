@@ -7,13 +7,15 @@ import Skills from './Components/Skills'
 import Footer from './Components/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './app.css'
 AOS.init();
 
 function App() {
+
   return (
-    <div>
+    <div className='portfolio' >
         <Navbar/>
-        <Home/>
+        <Home />
         <About/>
         <Knowledge/>
         <Skills/>

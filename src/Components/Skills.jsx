@@ -5,15 +5,15 @@ import {
   FaReact,
   FaBootstrap,
   FaNodeJs,
-  FaGit,
   FaGithub,
 } from "react-icons/fa";
 import { BiLogoTailwindCss, BiLogoMongodb, BiLogoGit } from "react-icons/bi";
 import { SiExpress, SiVercel } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
 
 function Skills() {
   return (
-    <div className="bg-black pt-5 items-center p-3 pb-10">
+    <div id="skills" className="bg-black pt-5 items-center p-3 pb-10">
       <div className="grid grid-cols-1 md:grid-cols-3 text-center ">
         <div className="">
           <h1 className="font-semibold text-2xl text-white sm:text-5xl">
@@ -23,11 +23,11 @@ function Skills() {
         <div className="grid grid-cols-1 space-y-4 col-span-2">
           <div className=" ">
             <div>
-              <h1 className="text-white text-start text-xl md:text-2xl lg:text-4xl font-semibold">
+              <h1 className="text-white text-start text-xl md:text-2xl lg:text-2xl font-semibold">
                 FRONTEND
               </h1>
             </div>
-            <div className="grid grid-cols-2 mt-3 md:grid-cols-3 space-y-3">
+            <div className="grid grid-cols-3 mt-3 md:grid-cols-6 space-y-3">
               <div className="text-white flex flex-col items-center justify-center">
                 <h1 className="text-base md:text-xl  ">HTML</h1>
                 <FaHtml5 className="text-3xl  md:text-4xl" />
@@ -41,6 +41,10 @@ function Skills() {
                 <FaReact className="text-3xl  md:text-4xl" />
               </div>
               <div className="text-white flex flex-col items-center justify-center">
+                <h1 className="text-base md:text-xl  ">JavaScript</h1>
+                <IoLogoJavascript className="text-3xl  md:text-4xl" />
+              </div>
+              <div className="text-white flex flex-col items-center justify-center">
                 <h1 className="text-base md:text-xl  ">BOOTSTRAP</h1>
                 <FaBootstrap className="text-3xl  md:text-4xl" />
               </div>
@@ -52,11 +56,11 @@ function Skills() {
           </div>
           <div className=" ">
             <div>
-              <h1 className="text-white text-start text-xl md:text-2xl lg:text-4xl font-semibold">
+              <h1 className="text-white text-start text-xl md:text-2xl lg:text-2xl font-semibold">
                 BACKEND
               </h1>
             </div>
-            <div className="grid grid-cols-2 mt-3 md:grid-cols-3 space-y-3">
+            <div className="grid grid-cols-3 mt-3 md:grid-cols-6 space-y-3">
               <div className="text-white flex flex-col items-center justify-center">
                 <h1 className="text-base md:text-xl">NODE JS</h1>
                 <FaNodeJs className="text-3xl  md:text-4xl" />
@@ -73,11 +77,11 @@ function Skills() {
           </div>
           <div className="">
             <div>
-              <h1 className="text-white text-start text-xl md:text-2xl lg:text-4xl font-semibold">
+              <h1 className="text-white text-start text-xl md:text-2xl lg:text-2xl font-semibold">
                 OTHER
               </h1>
             </div>
-            <div className="grid grid-cols-2 mt-3 md:grid-cols-3 space-y-3">
+            <div className="grid grid-cols-3 mt-3 md:grid-cols-6 space-y-3">
               <div className="text-white flex flex-col items-center justify-center">
                 <h1 className="text-base md:text-xl">GIT</h1>
                 <BiLogoGit className="text-3xl  md:text-4xl" />

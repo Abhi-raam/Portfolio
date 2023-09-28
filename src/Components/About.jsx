@@ -1,18 +1,18 @@
 import React from "react";
-import imageAbout from "../assets/image1.png";
 import imageAbout2 from "../assets/image2.png";
 import CV from "../assets/Abhiram.pdf"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faWhatsapp,
   faLinkedinIn,
   faGithub,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+
 function About() {
+
   return (
-    <div className="sm:flex justify-evenly p-3 pt-5 items-center mb-12 mt-12">
+    <div id="about" className=" sm:flex justify-evenly p-3 pt-16 items-center mb-12 mt-12">
       <div className="grid grid-cols-1 gap-9 sm:grid-cols-3 sm:max-w-5xl">
         <div className=" font-semibold text-2xl sm:text-5xl">
           <h1 className="">
@@ -45,12 +45,6 @@ function About() {
                   icon={faFacebook}
                 />
               </a>
-              {/* <a href="">
-                <FontAwesomeIcon
-                  className="cursor-pointer hover:text-yellow-500 transition delay-75 duration-150 ease-in-out hover:bg-black sm:text-2xl text-xl rounded-full bg-yellow-400 p-[1rem] sm:p-[1rem]"
-                  icon={faWhatsapp}
-                />
-              </a> */}
               <a href="https://www.linkedin.com/in/abhiram-suresh/">
                 <FontAwesomeIcon
                   className="cursor-pointer hover:text-yellow-500 transition delay-75 duration-150 ease-in-out hover:bg-black sm:text-2xl text-xl rounded-full bg-yellow-400 p-[1rem] sm:p-[1rem]"

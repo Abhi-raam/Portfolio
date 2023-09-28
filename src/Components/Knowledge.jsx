@@ -3,9 +3,9 @@ import { FaLaptopCode, FaLaptop } from "react-icons/fa";
 
 function Knowledge() {
   return (
-    <div className="bg-yellow-500 text-center p-3 pb-4">
+    <div id="knowledge" className="bg-yellow-500 mt-5 pt-16 text-center p-3 pb-4">
       <h1 className="font-semibold text-2xl md:text-4xl">KNOWLEDGE</h1>
-      <div className="grid md:flex md:space-y-0 space-y-6 justify-around ">
+      <div className="grid mt-5 md:flex md:space-y-0 space-y-6 justify-around ">
         <div className="space-y-6">
           <div className="flex space-x-4 ">
             <FaLaptopCode className="bg-black p-2 rounded-full cursor-pointer text-white  text-4xl md:text-5xl" />
@@ -23,7 +23,7 @@ function Knowledge() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 space-y-6">
+        <div className="space-y-6">
           <div className="flex space-x-4 ">
             <FaLaptop className="bg-black p-2 rounded-full cursor-pointer text-white  text-4xl md:text-5xl" />
             <div className="text-start">
