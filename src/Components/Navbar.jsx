@@ -13,19 +13,19 @@ function Navbar() {
                 </div>
                 <div>
                     <ul className="lg:flex items-center space-x-6  font-semibold">
-                        <li className='lg:inline-block hidden hover:text-white transition delay-75 duration-150 ease-in-out'>
+                        <li className='lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                             <a href="">Home</a>
                         </li>
-                        <li className="lg:inline-block hidden hover:text-white transition delay-75 duration-150 ease-in-out">
+                        <li className="lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
                             <a href="#">About Me</a>
                         </li>
-                        <li className="lg:inline-block hidden hover:text-white transition delay-75 duration-150 ease-in-out">
-                            <a href="#">Service</a>
+                        <li className="lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                            <a href="#">Konwledge</a>
                         </li>
-                        <li className="lg:inline-block hidden hover:text-white transition delay-75 duration-150 ease-in-out">
-                            <a href="#">Projects</a>
+                        <li className="lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                            <a href="#">Skills</a>
                         </li>
-                        <li className="lg:inline-block hidden hover:text-white transition delay-75 duration-150 ease-in-out">
+                        <li className="lg:inline-block hidden hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
                             <a href="#">Contact</a>
                         </li>
                     </ul>
@@ -42,19 +42,19 @@ function Navbar() {
                 <div className="relative">
                 <div className='grid backdrop-filter backdrop-blur bg-opacity-30 bg-white-10/2 justify-end font-semibold absolute top-0 left-0 right-0'>
                     <ul className="mr-3 space-y-2" >
-                        <li className='hover:text-white transition delay-75 duration-150 ease-in-out'>
+                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                             <a href="#">Home</a>
                         </li>
-                        <li className='hover:text-white transition delay-75 duration-150 ease-in-out'>
+                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                             <a href="#">About Me</a>
                         </li>
-                        <li className='hover:text-white transition delay-75 duration-150 ease-in-out'>
-                            <a href="#">Service</a>
+                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                            <a href="#">Konwledge</a>
                         </li>
-                        <li className='hover:text-white transition delay-75 duration-150 ease-in-out'>
-                            <a href="#">Projects</a>
+                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                            <a href="#">Skills</a>
                         </li>
-                        <li className='hover:text-white transition delay-75 duration-150 ease-in-out'>
+                        <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                             <a href="#">Contact</a>
                         </li>
                     </ul>
