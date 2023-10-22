@@ -9,7 +9,7 @@ import amination from '../assets/animation.json'
 function Home() {
     return (
         // removed min-h-screen 
-        <div id='home' className='pt-16  grid grid-cols-1 md:grid-cols-2 min-h-screen'>
+        <div id='home' className='pt-16  grid grid-cols-1 md:grid-cols-2 min-h-screen md:min-h-0'>
             <div className='flex justify-center md:justify-start '>
                 <img className='rounded-full md:rounded h-80 w-80 brightness-[0.8]  md:w-auto  lg:h-[100vh]' src={imageMob} alt="" />
             </div>

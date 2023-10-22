@@ -8,15 +8,17 @@ import Footer from './Components/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './app.css'
+import Project from './Components/Project'
 AOS.init();
 
 function App() {
 
   return (
-    <div className='portfolio' >
+    <div className='portfolio '  >
         <Navbar/>
         <Home />
         <About/>
+        <Project/>
         <Knowledge/>
         <Skills/>
         <Footer/>
