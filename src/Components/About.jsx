@@ -12,23 +12,24 @@ import {
 function About() {
 
   return (
-    <div id="about" className=" sm:flex justify-evenly p-3 pt-16 items-center mb-12 mt-12">
-      <div className="grid grid-cols-1 gap-9 sm:grid-cols-3 sm:max-w-5xl">
+    // removed mb-12
+    <div id="about" className=" sm:flex justify-evenly p-3 pt-16 items-center  mt-12">
+      <div className="grid  gap-9 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 sm:max-w-5xl">
         <div className=" font-semibold text-2xl sm:text-5xl">
           <h1 className="">
             ABOUT<span className="text-yellow-400 ml-2">ME</span>
           </h1>
         </div>
-        <div className="">
+        <div className="col-span-1 lg:col-span-2">
           <div>
             <h1 className="font-semibold text-center text-3xl">
               Hello! I'm Abhiram
             </h1>
             <h1 className="pt-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              A self-taught web developer and designer. With a passion for creating seamless and visually appealing 
+              digital experiences, I've honed my skills through hands-on projects and a relentless pursuit of knowledge. 
+              I thrive on challenges that push the boundaries of what's possible and approach every project as a unique 
+              opportunity to showcase my creativity and technical expertise.
             </h1>
           </div>
           <div className="pt-6">

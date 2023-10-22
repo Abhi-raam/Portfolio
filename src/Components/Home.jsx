@@ -8,7 +8,8 @@ import amination from '../assets/animation.json'
 
 function Home() {
     return (
-        <div id='home' className='pt-16  grid grid-cols-1 md:grid-cols-2  min-h-screen'>
+        // removed min-h-screen 
+        <div id='home' className='pt-16  grid grid-cols-1 md:grid-cols-2 min-h-screen'>
             <div className='flex justify-center md:justify-start '>
                 <img className='rounded-full md:rounded h-80 w-80 brightness-[0.8]  md:w-auto  lg:h-[100vh]' src={imageMob} alt="" />
             </div>
@@ -16,7 +17,7 @@ function Home() {
                 <div className=''>
                     <h1 className='lg:text-5xl text-center md:text-end text-xl text-yellow-400 font-semibold'>HELLO!</h1>
                     <h1 className='lg:text-5xl text-xl font-semibold text-black'>MY NAME IS ABHIRAM</h1>
-                    <h1 className="md:text-xl text-center text-black">Full-Stack Developer</h1>
+                    <h1 className="md:text-xl text-center text-black">Web Developer</h1>
                 </div>
             </div>
         </div>

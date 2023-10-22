@@ -27,7 +27,7 @@ function Skills() {
                 FRONTEND
               </h1>
             </div>
-            <div className="grid grid-cols-3 mt-3 md:grid-cols-6 space-y-3">
+            <div className="grid grid-cols-3 mt-3 md:grid-cols-5 lg:grid-cols-6 space-y-3">
               <div className="text-white flex flex-col items-center justify-center">
                 <h1 className="text-base md:text-xl  ">HTML</h1>
                 <FaHtml5 className="text-3xl  md:text-4xl" />
@@ -45,7 +45,7 @@ function Skills() {
                 <IoLogoJavascript className="text-3xl  md:text-4xl" />
               </div>
               <div className="text-white flex flex-col items-center justify-center">
-                <h1 className="text-base md:text-xl  ">BOOTSTRAP</h1>
+                <h1 className="text-base md:text-xl ">BOOTSTRAP</h1>
                 <FaBootstrap className="text-3xl  md:text-4xl" />
               </div>
               <div className="text-white flex flex-col items-center justify-center">
@@ -61,11 +61,11 @@ function Skills() {
               </h1>
             </div>
             <div className="grid grid-cols-3 mt-3 md:grid-cols-6 space-y-3">
-              <div className="text-white flex flex-col items-center justify-center">
+              <div className="text-white flex flex-col  items-center justify-center">
                 <h1 className="text-base md:text-xl">NODE JS</h1>
                 <FaNodeJs className="text-3xl  md:text-4xl" />
               </div>
-              <div className="text-white flex flex-col items-center justify-center">
+              <div className="text-white flex flex-col items-center justify-center col-span-1 md:col-span-2">
                 <h1 className="text-base md:text-xl">EXPRESS JS</h1>
                 <SiExpress className="text-3xl  md:text-4xl" />
               </div>
@@ -86,7 +86,7 @@ function Skills() {
                 <h1 className="text-base md:text-xl">GIT</h1>
                 <BiLogoGit className="text-3xl  md:text-4xl" />
               </div>
-              <div className="text-white flex flex-col items-center justify-center">
+              <div className="text-white flex flex-col items-center justify-center col-span-1 md:col-span-2">
                 <h1 className="text-base md:text-xl">GITHUB</h1>
                 <FaGithub className="text-3xl  md:text-4xl" />
               </div>
