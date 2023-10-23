@@ -4,7 +4,7 @@ import { FaLaptopCode, FaLaptop } from "react-icons/fa";
 function Knowledge() {
   return (
     // removed mt-5
-    <div id="knowledge" className="bg-yellow-500  pt-10 text-center p-3 pb-4">
+    <div id="knowledge" className="bg-yellow-500  pt-14 text-center p-3 pb-4">
       <h1 className="font-semibold text-2xl md:text-4xl">KNOWLEDGE</h1>
       <div className="grid mt-5 md:flex md:space-y-0 space-y-6 justify-center gap-16 ">
         <div className="space-y-6">

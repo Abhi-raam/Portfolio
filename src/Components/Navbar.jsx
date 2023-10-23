@@ -18,8 +18,10 @@ function Navbar() {
                             <Link to="home" smooth={true} duration={500}>Home</Link>
                         </li>
                         <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
-
                             <Link to="about" smooth={true} duration={500}>About Me</Link>
+                        </li>
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                            <Link to="project" smooth={true} duration={500}>Projects</Link>
                         </li>
                         <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
 

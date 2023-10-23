@@ -1,6 +1,7 @@
 import React from "react";
 import imageAbout2 from "../assets/image2.png";
 import CV from "../assets/Abhiram.pdf"
+import {AboutData , Links} from '../Data/AboutData'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -10,7 +11,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function About() {
-
   return (
     // removed mb-12
     <div id="about" className=" sm:flex justify-evenly p-3 pt-16 items-center  mt-12">
@@ -21,38 +21,33 @@ function About() {
           </h1>
         </div>
         <div className="col-span-1 lg:col-span-2">
-          <div>
-            <h1 className="font-semibold text-center text-3xl">
-              Hello! I'm Abhiram
-            </h1>
-            <h1 className="pt-3">
-              A self-taught web developer and designer. With a passion for creating seamless and visually appealing 
-              digital experiences, I've honed my skills through hands-on projects and a relentless pursuit of knowledge. 
-              I thrive on challenges that push the boundaries of what's possible and approach every project as a unique 
-              opportunity to showcase my creativity and technical expertise.
-            </h1>
-          </div>
+          {AboutData.map((about, index) => (
+            <div key={index}>
+              <h1 className="font-semibold text-center text-3xl">{about.Title}</h1>
+              <h1 className="pt-3">{about.Description}</h1>
+            </div>
+          ))}
           <div className="pt-6">
             <div className="space-x-6 flex justify-center">
-              <a href="https://www.instagram.com/rai__chu__/">
+              <a href={Links.instagram} >
                 <FontAwesomeIcon
                   className="cursor-pointer hover:text-yellow-500 transition delay-75 duration-150 ease-in-out hover:bg-black sm:text-2xl text-xl rounded-full bg-yellow-400 p-[1rem] sm:p-[1rem]"
                   icon={faInstagram}
                 />
               </a>
-              <a href="https://www.facebook.com/abhiram.suresh.52">
+              <a href={Links.facebook} >
                 <FontAwesomeIcon
                   className="cursor-pointer hover:text-yellow-500 transition delay-75 duration-150 ease-in-out hover:bg-black sm:text-2xl text-xl rounded-full bg-yellow-400 p-[1rem] sm:p-[1rem]"
                   icon={faFacebook}
                 />
               </a>
-              <a href="https://www.linkedin.com/in/abhiram-suresh/">
+              <a href={Links.linkedin} >
                 <FontAwesomeIcon
                   className="cursor-pointer hover:text-yellow-500 transition delay-75 duration-150 ease-in-out hover:bg-black sm:text-2xl text-xl rounded-full bg-yellow-400 p-[1rem] sm:p-[1rem]"
                   icon={faLinkedinIn}
                 />
               </a>
-              <a href="https://github.com/Abhi-raam">
+              <a href={Links.github} >
                 <FontAwesomeIcon
                   className="cursor-pointer hover:text-yellow-500 transition delay-75 duration-150 ease-in-out hover:bg-black sm:text-2xl text-xl rounded-full bg-yellow-400 p-[1rem] sm:p-[1rem]"
                   icon={faGithub}

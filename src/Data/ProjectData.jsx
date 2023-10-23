@@ -1,3 +1,5 @@
+import project1 from '../assets/project-1.png'
+
 const ProjectDatas = [
     {
         Title : "Title1",
@@ -8,7 +10,8 @@ const ProjectDatas = [
             "Tag-1",
             "Tag-1",
             "Tag-1",
-        ]
+        ],
+        Image : project1,
     },
     {
         Title : "Title2",

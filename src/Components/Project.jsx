@@ -3,7 +3,7 @@ import ProjectCards from './ProjectCards'
 import ProjectDatas from '../Data/ProjectData';
 function Project() {
     return (
-        <div className='bg-gray-900'>
+        <div id='project' className='bg-gray-900 pt-10'>
             <div>
                 <h1 className='text-center text-white font-semibold text-2xl md:text-4xl pt-5'>PROJECTS</h1>
             </div>
@@ -32,8 +32,8 @@ function Project() {
             </div> */}
             <div className='grid grid-cols-1 lg:grid-cols-2  gap-6 pb-7 mt-10 p-5 mx-0 md:mx-9'>
             {ProjectDatas.map((project, index) => (
-             <div className='justify-self-auto md:justify-self-center'>
-                <ProjectCards project={project} key={index}/>
+             <div key={index} className='justify-self-auto md:justify-self-center'>
+                <ProjectCards project={project}/>
              </div>
             ))}
             </div>
