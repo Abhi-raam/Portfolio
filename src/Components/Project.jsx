@@ -3,9 +3,9 @@ import ProjectCards from './ProjectCards'
 import ProjectDatas from '../Data/ProjectData';
 function Project() {
     return (
-        <div id='project' className='bg-gray-900 pt-10'>
+        <div id='project' className=' pt-10'>
             <div>
-                <h1 className='text-center text-white font-semibold text-2xl md:text-4xl pt-5'>PROJECTS</h1>
+                <h1 className='text-center text-black font-semibold text-2xl md:text-4xl pt-5'>PROJECTS</h1>
             </div>
             {/* <div className='grid justify-self-center'>
                 <div className=" bg-gray-100 max-w-[42rem] border 

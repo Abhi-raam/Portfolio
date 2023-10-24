@@ -34,9 +34,8 @@ const ProjectDatas = [
         Title : "Title3",
         Description : "This is sample Description",
         Tag :[
-            "html",
-            "css",
-            "javascript",
+            "reactjs",
+            "tailwind",
         ],
         Image : project3
     },
