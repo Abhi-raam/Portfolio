@@ -30,7 +30,7 @@ function Project() {
                     />
                 </div>
             </div> */}
-            <div className='grid grid-cols-1 lg:grid-cols-2  gap-6 pb-7 mt-10 p-5 mx-0 md:mx-9'>
+            <div className='grid grid-cols-1 2xl:grid-cols-2  gap-6 pb-7 mt-10 p-5 mx-0 md:mx-9'>
             {ProjectDatas.map((project, index) => (
              <div key={index} className='justify-self-auto md:justify-self-center'>
                 <ProjectCards project={project}/>
