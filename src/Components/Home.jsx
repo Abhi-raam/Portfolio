@@ -4,14 +4,23 @@ import imageHome1 from '../assets/home2.jpg'
 import imageMob from '../assets/home1.jpg'
 import Lottie from "lottie-react";
 import amination from '../assets/animation.json'
-// import imageMob from '../assets/1657858.jpg'
+import bg from '../assets/bg.jpeg'
 
 function Home() {
+    const myStyle={
+        backgroundImage: 
+ "url('https://i.pinimg.com/564x/06/a5/e5/06a5e5ae113f8ae8b6b0b8e35c01dcec.jpg')",
+        // height:'100vh',
+        // marginTop:'-70px',
+        // fontSize:'50px',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+    };
     return (
         // removed min-h-screen 
-        <div id='home' className='pt-16  grid grid-cols-1 md:grid-cols-2 min-h-screen md:min-h-0'>
+        <div id='home' className='pt-16  grid grid-cols-1 md:grid-cols-2 min-h-screen md:min-h-0 ' style={myStyle}>
             <div className='flex justify-center md:justify-start '>
-                <img className='rounded-full md:rounded h-80 w-80 brightness-[0.8]  md:w-auto  lg:h-[100vh]' src={imageMob} alt="" />
+                <img className='rounded-full md:rounded-full pb-5 p-9 h-80 w-80 brightness-[0.8]  md:w-auto  lg:h-[100vh]' src={imageMob} alt="" />
             </div>
             <div className=' items-center justify-center flex flex-col lg:h-[100vh]'>
                 <div className=''>

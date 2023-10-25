@@ -4,9 +4,11 @@ import ProjectDatas from '../Data/ProjectData';
 function Project() {
     return (
         <div id='project' className=' pt-10 bg-gray-900'>
-            <div>
-                <h1 className='text-center text-white font-semibold text-2xl md:text-4xl pt-5'>PROJECTS</h1>
+            <div className="flex flex-col items-center justify-center relative">
+                <h1 className='text-center text-slate-100 font-semibold text-4xl md:text-7xl brightness-[0.2] pt-5 tracking-widest'>PROJECTS</h1>
+                <h1 className='text-center text-yellow-500 font-semibold text-2xl md:text-4xl pt-5 absolute left-1/2 transform -translate-x-1/2 tracking-wider'>PROJECTS</h1>
             </div>
+
             {/* <div className='grid justify-self-center'>
                 <div className=" bg-gray-100 max-w-[42rem] border 
              border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem]  hover:bg-gray-300 transiton rounded-lg ">
@@ -31,11 +33,11 @@ function Project() {
                 </div>
             </div> */}
             <div className='grid grid-cols-1 2xl:grid-cols-2  gap-6 pb-7 mt-10 p-5 mx-0 md:mx-9'>
-            {ProjectDatas.map((project, index) => (
-             <div key={index} className='justify-self-auto md:justify-self-center'>
-                <ProjectCards project={project}/>
-             </div>
-            ))}
+                {ProjectDatas.map((project, index) => (
+                    <div key={index} className='justify-self-auto md:justify-self-center'>
+                        <ProjectCards project={project} />
+                    </div>
+                ))}
             </div>
         </div>
     )
