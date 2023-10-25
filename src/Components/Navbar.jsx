@@ -45,7 +45,7 @@ function Navbar() {
             {/* mobile view */}
             {mobileToggle && (
                 <div className="relative">
-                    <div className='grid backdrop-filter backdrop-blur bg-opacity-30 bg-white-10/2 justify-end font-semibold absolute top-0 left-0 right-0'>
+                    <div className='grid backdrop-filter backdrop-blur bg-opacity-30 text-slate-200 bg-white-10/2 justify-end font-semibold absolute top-0 left-0 right-0'>
                         <ul className="mr-3 space-y-2" >
                             <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                                 <Link to="home" smooth={true} duration={500}>Home</Link>
