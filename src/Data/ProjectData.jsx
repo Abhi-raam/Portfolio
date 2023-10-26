@@ -5,50 +5,52 @@ import project4 from '../assets/clgSite.png'
 
 const ProjectDatas = [
     {
-        Title : "Title1",
-        Description : "This is sample Description",
+        Title : "TrackEd",
+        Description : "TrackEd: Simplify attendance management for educational institutions. Streamline tracking, ensure accuracy, and empower educators for better class management and outcomes.",
         Tag :[
-            "Handlebars",
             "Nodejs",
             "expressjs",
+            "Handlebars",
             "mongodb",
             "bootstrap",
-            "Tag-1",
         ],
         Image : project1,
+        Link : "https://github.com/Abhi-raam/TrackEd"
     },
     {
-        Title : "Title2",
-        Description : "This is sample Description",
+        Title : "Stucor(Clone)",
+        Description : "Stucor clone is a comprehensive platform tailored for students. Access a curated collection of notes, stay updated with the latest campus news, and elevate your educational journey.",
         Tag :[
             "Handlebars",
             "Nodejs",
             "expressjs",
             "mongodb",
             "bootstrap",
-            "Tag-2",
         ],
-        Image : project2
+        Image : project2,
+        Link : "https://github.com/Abhi-raam/Stucor-clone"
     },
     {
-        Title : "Title3",
-        Description : "This is sample Description",
+        Title : "ScoreMate",
+        Description : "ScoreMate is a user-friendly web application designed exclusively for students of Anna University. It serves as a comprehensive tool to effortlessly calculate GPA, CGPA, and overall percentage of marks. ",
         Tag :[
             "reactjs",
             "tailwind",
         ],
-        Image : project3
+        Image : project3,
+        Link : "https://scoremate.vercel.app/"
     },
     {
-        Title : "Title4",
-        Description : "This is sample Description",
+        Title : "College Website",
+        Description : "It is a sample college website for college which include the details of the college, principal, chairman etc.",
         Tag :[
             "html",
             "css",
             "javascript",
             "bootstrap",
         ],
-        Image : project4
+        Image : project4,
+        Link : "https://gscet.netlify.app/"
     },
 ]
 

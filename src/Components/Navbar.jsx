@@ -13,24 +13,24 @@ function Navbar() {
                     <a className="btn btn-ghost normal-case text-xl">Abhiram</a>
                 </div>
                 <div>
-                    <ul className="lg:flex items-center space-x-6 text-slate-200 font-semibold">
-                        <li className='lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                    <ul className="lg:flex items-center space-x-6  font-semibold">
+                        <li className='lg:inline-block hidden cursor-pointer hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                             <Link to="home" smooth={true} duration={500}>Home</Link>
                         </li>
-                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out">
                             <Link to="about" smooth={true} duration={500}>About Me</Link>
                         </li>
-                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out">
                             <Link to="project" smooth={true} duration={500}>Projects</Link>
                         </li>
-                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out">
 
                             <Link to="knowledge" smooth={true} duration={500}>Knowledge</Link>
                         </li>
-                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out">
                             <Link to="skills" smooth={true} duration={500}>Skills</Link>
                         </li>
-                        <li className="lg:inline-block hidden cursor-pointer hover:text-yellow-400 transition delay-75 duration-150 ease-in-out">
+                        <li className="lg:inline-block hidden cursor-pointer hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out">
                             <Link to="contact" smooth={true} duration={500}>Contact</Link>
                         </li>
                     </ul>
@@ -45,21 +45,21 @@ function Navbar() {
             {/* mobile view */}
             {mobileToggle && (
                 <div className="relative">
-                    <div className='grid backdrop-filter backdrop-blur bg-opacity-30 text-slate-200 bg-white-10/2 justify-end font-semibold absolute top-0 left-0 right-0'>
+                    <div className='grid backdrop-filter backdrop-blur bg-opacity-30  bg-white-10/2 justify-end font-semibold absolute top-0 left-0 right-0'>
                         <ul className="mr-3 space-y-2" >
-                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                            <li className='hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                                 <Link to="home" smooth={true} duration={500}>Home</Link>
                             </li>
-                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                            <li className='hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                                 <Link to="about" smooth={true} duration={500}>About Me</Link>
                             </li>
-                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                            <li className='hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                                 <Link to="knowledge" smooth={true} duration={500}>Knowledge</Link>
                             </li>
-                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                            <li className='hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                                 <Link to="skills" smooth={true} duration={500}>Skills</Link>
                             </li>
-                            <li className='hover:text-yellow-400 transition delay-75 duration-150 ease-in-out'>
+                            <li className='hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out'>
                                 <Link to="contact" smooth={true} duration={500}>Contact</Link>
                             </li>
                         </ul>
