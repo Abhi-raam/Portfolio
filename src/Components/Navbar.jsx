@@ -31,7 +31,7 @@ function Navbar() {
                             <Link to="skills" smooth={true} duration={500}>Skills</Link>
                         </li>
                         <li className="lg:inline-block hidden cursor-pointer hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out">
-                            <Link to="contact" smooth={true} duration={500}>Contact</Link>
+                            <Link to="about" smooth={true} duration={500}>Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -60,7 +60,7 @@ function Navbar() {
                                 <Link to="skills" smooth={true} duration={500}>Skills</Link>
                             </li>
                             <li className='hover:text-slate-200 text-yellow-400 transition delay-75 duration-150 ease-in-out'>
-                                <Link to="contact" smooth={true} duration={500}>Contact</Link>
+                                <Link to="about" smooth={true} duration={500}>Contact</Link>
                             </li>
                         </ul>
                     </div>

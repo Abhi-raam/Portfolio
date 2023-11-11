@@ -1,7 +1,8 @@
-import project1 from '../assets/AMS.png'
-import project2 from '../assets/stucorClone.png'
-import project3 from '../assets/scoreMate.png'
-import project4 from '../assets/clgSite.png'
+import tracked from '../assets/AMS.png'
+import stucor from '../assets/stucorClone.png'
+import cinematrix from '../assets/cinematrix.png'
+import scoremate from '../assets/scoreMate.png'
+import collegesite from '../assets/clgSite.png'
 
 const ProjectDatas = [
     {
@@ -14,7 +15,7 @@ const ProjectDatas = [
             "mongodb",
             "bootstrap",
         ],
-        Image : project1,
+        Image : tracked,
         Link : "https://github.com/Abhi-raam/TrackEd"
     },
     {
@@ -27,8 +28,19 @@ const ProjectDatas = [
             "mongodb",
             "bootstrap",
         ],
-        Image : project2,
+        Image : stucor,
         Link : "https://github.com/Abhi-raam/Stucor-clone"
+    },
+    {
+        Title : "CineMatrix",
+        Description : "CineMatrix is  a dynamic React movie website for seamless exploration. Users can effortlessly search, discover, and enjoy trailers, delivering an immersive and interactive cinematic experience",
+        Tag :[
+            "reactjs",
+            "tmdb api",
+            "tailwind",
+        ],
+        Image : cinematrix,
+        Link : "https://cinematrix-abhi.vercel.app/"
     },
     {
         Title : "ScoreMate",
@@ -37,7 +49,7 @@ const ProjectDatas = [
             "reactjs",
             "tailwind",
         ],
-        Image : project3,
+        Image : scoremate,
         Link : "https://scoremate.vercel.app/"
     },
     {
@@ -49,7 +61,7 @@ const ProjectDatas = [
             "javascript",
             "bootstrap",
         ],
-        Image : project4,
+        Image : collegesite,
         Link : "https://gscet.netlify.app/"
     },
 ]
