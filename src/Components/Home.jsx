@@ -1,12 +1,14 @@
 import React from 'react';
 import imageMob from '../assets/home1.jpg'
 import bck from '../assets/homebck.jpg'
+// import bck from '../assets/homebck.jpeg'
 function Home() {
     const myStyle={
         backgroundImage: `url(${bck})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        width:"100%"
+        // width:"100%",
+        backgroundPosition: 'center'
     };
     return (
         <div id='home' className='pt-16  grid grid-cols-1 md:grid-cols-2 min-h-screen md:min-h-0' style={myStyle}>
