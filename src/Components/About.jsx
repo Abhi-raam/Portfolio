@@ -28,7 +28,7 @@ function About() {
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className=" text-center  z-10 h-full flex flex-col justify-end">
           <img
-            className="h-[20rem] w-[100rem] brightness-90 drop-shadow-[35px_0_35px_rgba(0,0,0,0.3)] self-end"
+            className=" w-auto h-80 brightness-90 drop-shadow-[35px_0_35px_rgba(0,0,0,0.3)] self-center"
             src={imageAbout2}
             alt=""/>
           <div className="flex items-center justify-center">
