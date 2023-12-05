@@ -30,10 +30,10 @@ function About() {
           <img
             className=" w-auto h-80 brightness-90 drop-shadow-[35px_0_35px_rgba(0,0,0,0.3)] self-center"
             src={imageAbout2}
-            alt=""/>
+            alt="abhiram"/>
           <div className="flex items-center justify-center">
             <div className="p-2">
-              <a href={CV} target="__blank">
+              <a href={CV} download="Abhiram" target="__blank">
                 <button className="bg-yellow-400 transition ease-in-out duration-300 hover:text-yellow-400 hover:bg-black font-semibold p-2 rounded-full w-52 md:w-44 lg:w-80">
                   Download CV
                 </button>
