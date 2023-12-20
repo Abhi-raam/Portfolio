@@ -10,7 +10,7 @@ function Navbar() {
         <div className='fixed top-0 left-0 right-0 z-50'>
             <div className="navbar  bg-white-10/2 bg:blur bg-opacity-30 backdrop-blur">
                 <div className="flex-1 text-slate-200">
-                    <a className="btn btn-ghost normal-case text-xl">Abhiram</a>
+                    <p className="btn btn-ghost normal-case text-xl">Abhiram</p>
                 </div>
                 <div>
                     <ul className="lg:flex items-center space-x-6  font-semibold">
@@ -36,7 +36,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className="flex-none lg:hidden">
-                    <button className="btn btn-square btn-ghost text-slate-200 " onClick={buttonClick}>
+                    <button className="btn  btn-ghost text-slate-200 " onClick={buttonClick}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                     </button>
                 </div>

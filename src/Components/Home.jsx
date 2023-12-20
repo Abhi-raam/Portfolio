@@ -13,7 +13,7 @@ function Home() {
     return (
         <div id='home' className='pt-16  grid grid-cols-1 md:grid-cols-2 min-h-screen md:min-h-0' style={myStyle}>
             <div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-sine" className='flex items-center justify-center md:justify-start '>
-                <img className='rounded-full md:rounded-full pb-5 p-9 h-80 brightness-[0.8]  md:w-auto  md:h-auto  lg:w-[80vh] ' src={imageMob} alt="abhiramImage" />
+                <img className='rounded-full md:rounded-full pb-5 p-9 h-80 brightness-[0.8]  md:w-[50vh]  md:h-auto  lg:w-[80vh] ' src={imageMob} alt="abhiramImage" />
             </div>
             <div className=' items-center justify-center flex flex-col lg:h-[100vh]'>
                 <div data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-sine" className=''>
