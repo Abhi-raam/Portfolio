@@ -10,7 +10,7 @@ function ProjectCards({ project }) {
                 </div>
                 <div className="card-body text-slate-200">
                     <h2 className="card-title">{Title}</h2>
-                    <p className='max-w-xs md:max-w-[15rem]'>{Description}</p>
+                    <p className='max-w-xs md:max-w-[15rem] md:text-justify'>{Description}</p>
                     <ul className='flex flex-wrap mt-4 gap-2 sm:mt-auto max-w-sm sm:max-w-[10rem] md:max-w-[15rem]'>
                         {Tag.map((tag, index) => (
                             <li key={index} className='bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase  text-white rounded-full'>{tag}</li>

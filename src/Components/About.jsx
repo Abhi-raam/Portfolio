@@ -15,7 +15,7 @@ function About() {
           {AboutData.map((about, index) => (
             <div key={index} className="text-slate-200">
               <h1 className="font-semibold text-center text-3xl">{about.Title}</h1>
-              <h1 className="pt-3">{about.Description}</h1>
+              <h1 className="pt-3 text-justify">{about.Description}</h1>
             </div>
           ))}
           <div className="pt-6">
