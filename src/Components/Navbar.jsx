@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <div className='fixed top-0 left-0 right-0 z-50'>
             <div className="navbar  bg-white-10/2 bg:blur bg-opacity-30 backdrop-blur">
-                <div className="flex-1 text-slate-200">
+                <div className="flex-1 text-yellow-400">
                     <p className="btn btn-ghost normal-case text-xl">Abhiram</p>
                 </div>
                 <div>
