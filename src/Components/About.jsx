@@ -11,7 +11,7 @@ function About() {
           <h1 className="text-slate-200 text-center md:text-start">ABOUT<span className="text-yellow-400 ml-2">ME</span>
           </h1>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" className="col-span-1 lg:col-span-1 xl:col-span-2 ">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" className="col-span-1  lg:col-span-1 xl:col-span-2 ">
           {AboutData.map((about, index) => (
             <div key={index} className="text-slate-200">
               <h1 className="font-semibold text-center text-3xl">{about.Title}</h1>
@@ -28,7 +28,7 @@ function About() {
         </div>
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" className=" text-center  z-10 h-full flex flex-col justify-end">
           <img
-            className=" w-auto h-80 brightness-90 drop-shadow-[35px_0_35px_rgba(0,0,0,0.3)] self-center"
+            className=" w-auto h-72 brightness-90 drop-shadow-[35px_0_35px_rgba(0,0,0,0.3)] self-center"
             src={imageAbout2}
             alt="abhiram"/>
           <div className="flex items-center justify-center">
