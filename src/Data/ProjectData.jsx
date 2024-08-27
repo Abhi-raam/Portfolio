@@ -3,6 +3,7 @@ import stucor from '../assets/stucorClone.png'
 import cinematrix from '../assets/cinematrix.png'
 import scoremate from '../assets/scoreMate.png'
 import collegesite from '../assets/clgSite.png'
+import doList from '../assets/dolist.png'
 
 const ProjectDatas = [
     {
@@ -30,6 +31,17 @@ const ProjectDatas = [
         ],
         Image : stucor,
         Link : "https://github.com/Abhi-raam/Stucor-clone"
+    },
+    {
+        Title : "DoList",
+        Description : "Dolist is a web application designed to simplify and enhance project management, offering an intuitive and powerful platform to keep your tasks organized and on track.",
+        Tag :[
+            "reactjs",
+            "tailwind",
+            "firebase",
+        ],
+        Image : doList,
+        Link : "https://dolist-five.vercel.app/"
     },
     {
         Title : "CineMatrix",

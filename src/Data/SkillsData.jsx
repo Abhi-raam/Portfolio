@@ -1,8 +1,9 @@
 import React from "react";
 import {FaHtml5,FaCss3Alt,FaReact,FaBootstrap,FaNodeJs,FaGithub,} from "react-icons/fa";
 import { BiLogoTailwindCss, BiLogoMongodb, BiLogoGit } from "react-icons/bi";
-import { SiExpress, SiVercel } from "react-icons/si";
+import { SiExpress, SiVercel,SiTypescript,SiJavascript   } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
+
 const SkillData = [
     {
         Title : "FRONTEND",
@@ -21,7 +22,11 @@ const SkillData = [
             },
             {
                 Name : "JavaScript",
-                Icon :<IoLogoJavascript className="text-3xl  md:text-4xl" /> ,
+                Icon :<SiJavascript  className="text-3xl rounded  md:text-4xl" /> ,
+            },
+            {
+                Name : "TypeScript",
+                Icon :<SiTypescript className="text-3xl  md:text-4xl" /> ,
             },
             {
                 Name : "BOOTSTRAP",

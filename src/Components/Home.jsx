@@ -1,5 +1,4 @@
 import React from 'react';
-import imageMob from '../assets/home1.jpg'
 import imageMob1 from '../assets/Avatar1.png'
 function Home() {
     const myStyle = {

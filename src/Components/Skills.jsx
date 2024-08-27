@@ -17,7 +17,7 @@ function Skills() {
               <div >
                 <h1 className=" text-start text-xl md:text-2xl lg:text-2xl font-semibold uppercase">{SkillData.Title}</h1>
               </div>
-              <div  className="grid grid-cols-3 mt-3 md:grid-cols-6 ">
+              <div  className="grid grid-cols-3 mt-3 md:grid-cols-3 gap-3 ">
                 {SkillData.skill.map((skillDetails,index)=>(
                   <div key={index} className=" flex flex-col pt-4 items-center justify-center space-y-2 col-span-1 md:col-span-2 lg:col-span-1">
                   <h1 className="text-base md:text-xl uppercase">{skillDetails.Name}</h1>
